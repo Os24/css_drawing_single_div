@@ -1,0 +1,37 @@
+.background {
+  background: red;
+  width: 50px;
+  height: 100px;
+  left: 300px;
+  top: 60px;
+  position: absolute;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px; }
+
+.background::before {
+  content: "";
+  background: blue;
+  width: 50px;
+  height: 100px;
+  right: -83px;
+  top: -29px;
+  position: absolute;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  transform: rotate(51deg);
+  box-shadow: 72px -84px 0px 0px; }
+
+.background::after {
+  content: "";
+  background: peru;
+  width: 50px;
+  height: 100px;
+  left: 102px;
+  top: 30px;
+  position: absolute;
+  transform: rotate(230deg);
+  border-radius: 100px 0px 0px 100px;
+  box-shadow: 70px;
+  box-shadow: -73px 85px 0px 0px; }
+
+/*# sourceMappingURL=main.css.map */
